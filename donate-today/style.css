@@ -133,16 +133,4 @@ p{
     padding: 10px 15px;
     box-sizing: border-box;
 }
-.add-icon{
-    background-image: url(icons/icon8.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-
-}
-.add-icon-2{
-    
-    background-image: url(icons/icon11.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
+      /*--------extra peragraph and side image*/
