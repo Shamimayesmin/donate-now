@@ -38,5 +38,111 @@
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 30px;
+    font-weight: 500;
 
+}
+     /*------ donate money ----*/
+
+.donate{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: 500px;
+    line-height: 20px;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+.amount{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.taka{
+    flex-basis: 40%;
+    border-radius: 80px;
+    margin-bottom: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: #fff3ff;;
+    box-shadow: 30px;
+    transition: 0.5s;
+    
+}
+.taka:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*--- other amount r nicher box ---*/
+.flex-width{
+    width: 100%;
+    text-align: center;
+}
+.donate-box{
+    width:100%;
+    margin-top:30px;
+
+
+}
+
+.donate-here{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(blue,aqua);
+    color:white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500px;
+}
+/*-----donate plan----*/
+
+.donate-plan{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 16px;
+    padding:15px ;
+}
+.item-row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.donate-item{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.add-icon{
+    background-image: url(icons/icon8.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.add-icon-2{
+    
+    background-image: url(icons/icon11.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
