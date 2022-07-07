@@ -71,12 +71,13 @@ h3{
     padding: 30px 20px;
     box-sizing: border-box;
     background: #fff3ff;;
-    box-shadow: 30px;
+    box-shadow: 30px solid gray;
     transition: 0.5s;
     
 }
-.taka:hover{
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+#border{
+    border-left: 3px salmon;
+    border-right: 3px salmon;
 }
 
 /*--- other amount r nicher box ---*/
@@ -133,6 +134,15 @@ p{
     padding: 10px 15px;
     box-sizing: border-box;
     text-align: justify;
+}
+#food{
+    background-color: #d29898;
+}
+#shelter{
+    background-color: rgb(150, 201, 201);
+}
+#education{
+    background-color: rgb(212, 136, 136);
 }
       /*--------extra peragraph and side image*/
 .your-help{
